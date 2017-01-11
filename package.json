@@ -1,6 +1,6 @@
 {
   "name": "learntousetravisci",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "learn to use travis ci",
   "main": "index.js",
   "scripts": {
