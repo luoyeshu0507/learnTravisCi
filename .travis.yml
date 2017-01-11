@@ -1,0 +1,19 @@
+# using docker container
+sudo: false
+
+notifications:
+  email:
+    - lizhiwei@qiniu.com
+cache:
+  directories:
+  - node_modules
+branches:
+  only:
+    - master
+    - develop
+language: node_js
+  - "0.12"
+before_script:
+  - npm install
+script:
+  - gulp
